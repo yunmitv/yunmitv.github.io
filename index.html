@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云光TV官方最新下载 - 智能电视直播软件 酒店央视卫视源</title>
+    <meta name="description" content="云光TV是一款频道资源丰富的电视直播软件，专为智能盒子和智能电视设计，内置大量特色频道和各地区酒店央视卫视源，稳定全面，满足娱乐和直播需求。">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        :root {
+            --primary-color: #2196F3; /* Changed primary color for 云光TV theme (blue) */
+            --secondary-color: #f5f5f5;
+            --accent-color: #1976D2; /* Changed accent color */
+        }
+        .hero-section {
+            /* TODO: Replace with a relevant background image for 云光TV */
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://pic1.imgdb.cn/item/67c0250dd0e0a243d40719a1.jpg');
+            background-position: center center;
+            background-size: cover;
+            color: white;
+            padding: 120px 0;
+        }
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        .testimonial-card {
+            border-left: 4px solid var(--primary-color);
+        }
+        .download-section {
+            background-color: var(--secondary-color);
+        }
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        .btn-primary:hover {
+            background-color: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+        .btn-outline-light:hover {
+            color: var(--primary-color);
+        }
+        .feature-box {
+            border-radius: 10px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            height: 100%;
+        }
+        .feature-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .danmu-animation {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            height: 200px;
+            background-color: rgba(0, 0, 0, 0.8);
+            margin-bottom: 20px;
+        }
+        .danmu-text {
+            position: absolute;
+            white-space: nowrap;
+            color: white;
+            font-size: 14px;
+            animation: danmu 15s linear infinite;
+        }
+        @keyframes danmu {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
+        .anime-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            background-color: rgba(33, 150, 243, 0.1);
+            color: var(--primary-color);
+            margin-right: 8px;
+            margin-bottom: 8px;
+            font-size: 14px;
+            border: 1px solid var(--primary-color);
+        }
+        .feature-category {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            display: block;
+            font-size: 1.1rem;
+        }
+        .feature-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .feature-list li {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .feature-list li i {
+            color: var(--primary-color);
+            margin-right: 10px;
+        }
+        .source-code {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            margin-top: 20px;
+            border: 1px solid #dee2e6;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">云光TV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">应用介绍</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">应用特点</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#source">内置源接口</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#download">立即下载</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">云光TV - 智能电视直播软件</h1>
+            <p class="lead mb-5">专为智能盒子和智能电视设计<br>内置大量特色频道和各地区酒店央视卫视源</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#download" class="btn btn-primary btn-lg px-4 py-2">立即下载</a>
+                <a href="#features" class="btn btn-outline-light btn-lg px-4 py-2">了解特点</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <!-- TODO: Replace with a relevant image for 云光TV -->
+                    <img src="https://tu.yedimifeng.com/images/2025/04/16/1301fdd649c1447c89386b2b394aa952.png" alt="云光TV界面预览" class="img-fluid rounded shadow-lg">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4">云光TV APP介绍</h2>
+                    <p class="lead">云光TV是一款频道资源内容非常丰富的电视直播软件。</p>
+                    <p class="mb-4">专为智能盒子和智能电视设计，全新版本拥有大量的特色频道，像赛事、足球、篮球，娱乐欣赏等，除此之外，内置了各地区的酒店央视和卫视源，稳定且全面，娱乐的同时也兼顾了电视直播的需求！</p>
+
+                    <div class="mb-4">
+                        <h5 class="fw-bold mb-3">核心优势</h5>
+                        <span class="anime-badge">频道丰富</span>
+                        <span class="anime-badge">特色频道</span>
+                        <span class="anime-badge">酒店源</span>
+                        <span class="anime-badge">央视卫视</span>
+                        <span class="anime-badge">赛事直播</span>
+                        <span class="anime-badge">娱乐欣赏</span>
+                        <span class="anime-badge">稳定全面</span>
+                        <span class="anime-badge">智能电视</span>
+                        <span class="anime-badge">智能盒子</span>
+                    </div>
+
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-tv text-success me-2"></i>
+                        <span>专为智能盒子和智能电视设计</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-list-alt text-success me-2"></i>
+                        <span>拥有大量特色频道，包括赛事、足球、篮球等</span>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fas fa-building text-success me-2"></i>
+                        <span>内置各地区酒店央视和卫视源</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        <span>稳定且全面，兼顾娱乐和电视直播需求</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">应用特点</h2>
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-md-6">
+                    <div class="card feature-box border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <div class="text-center mb-4">
+                                <i class="fas fa-film feature-icon"></i>
+                                <h4 class="card-title fw-bold">娱乐生活频道</h4>
+                            </div>
+                            <p class="card-text">打开后主要是娱乐生活频道，还有赛事等，包括足球、篮球等体育赛事直播，满足用户多样化的娱乐需求。</p>
+                            <p class="card-text mt-3">各类娱乐节目、体育赛事一应俱全，让您在家也能享受丰富的视听体验。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card feature-box border-0 shadow-sm h-100">
+                        <div class="card-body">
+                            <div class="text-center mb-4">
+                                <i class="fas fa-broadcast-tower feature-icon"></i>
+                                <h4 class="card-title fw-bold">酒店央视卫视源</h4>
+                            </div>
+                            <p class="card-text">各地区酒店的源都集合进来了，所以央视卫视不用担心，可以随时播放。这些源通常更加稳定可靠。</p>
+                            <p class="card-text mt-3">无论是央视频道还是各大卫视，都能流畅观看，不会错过任何精彩内容。</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="source" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">内置源接口</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="lead mb-4">云光TV内置了优质的源接口，无需手动配置，开箱即用</p>
+                    <div class="source-code">
+                        <code>http://rihou.cc:555/gggg.nzk</code>
+                    </div>
+                    <p class="mt-3">内置接口确保您能获得最佳的观看体验，无需担心源失效问题</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download-section py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">立即下载 云光TV</h2>
+            <p class="lead mb-5">最新官方版本<br>体验频道丰富、酒店央视卫视源的智能电视直播软件</p>
+            <!-- TODO: Update download links if available -->
+            <a href="https://tvbox-blw.pages.dev" class="btn btn-primary btn-lg px-5 py-3 me-3 mb-3"><i class="fas fa-download me-2"></i>官方下载</a>
+            <a href="https://tvbox-blw.pages.dev" class="btn btn-secondary btn-lg px-5 py-3 mb-3"><i class="fab fa-android me-2"></i>备用下载</a>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 云光TV. All Rights Reserved.</p>
+            <!-- Optional: Add disclaimer or contact info -->
+            <p class="small text-muted mt-1">本站仅提供应用介绍，下载资源来自互联网，如有侵权请联系删除。</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
